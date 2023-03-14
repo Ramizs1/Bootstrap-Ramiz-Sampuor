@@ -1,0 +1,42 @@
+.first-column {
+    background-color: rgb(233, 241, 245);
+}
+
+.second-column {
+    background-color: rgb(205, 223, 243);
+}
+
+.third-column {
+    background-color: rgb(165, 214, 243);
+}
+
+.row {
+    height: 100vh;
+}
+
+#hover-1 {
+    margin: 5px;
+    box-shadow: 0px 5px 5px 1px;
+}
+#hover-1:hover {
+    background-color: rgb(22, 235, 250);
+    transition: 0.5s;
+}
+
+.message-1 {
+    margin: 5px;
+    box-shadow: 0px 5px 5px 1px;
+}
+
+#hover-message:hover {
+    background-color: rgb(22, 235, 250);
+    transition: 0.5s;
+}
+
+#reply:hover {
+    transform: scale(1.1);
+}
+
+#search {
+    margin: 5px
+}
