@@ -18,11 +18,18 @@ body {
     background-color: rgb(165, 214, 243);
 }
 
-#active-inbox {
-    margin: 5px;
-    box-shadow: 0px 5px 5px 1px rgb(70, 70, 249);
-    background-color: rgb(70, 70, 249);
-    color: white;
+#inbox-selected {
+    color: rgb(70, 70, 249) ;
+    text-decoration: bold;
+}
+
+h4 {
+    margin: 30px;
+}
+
+h4:hover {
+    cursor: pointer;
+    color:rgb(70, 70, 249);
 }
 
 .active-message {
@@ -62,4 +69,8 @@ body {
 
 #search {
     margin: 5px
+}
+
+p {
+    font-size: 20px;
 }

@@ -55,15 +55,13 @@
                 </div>
               </div>
                 <!--inbox etc.. list-->
-                <div class="list-group">
-                    <button type="button" class="list-group-item list-group-item-action" id="active-inbox" >
-                      Inbox
-                    </button>
-                    <button type="button" class="list-group-item list-group-item-action" id="hover-1">Important</button>
-                    <button type="button" class="list-group-item list-group-item-action"id="hover-1">Favorite</button>
-                    <button type="button" class="list-group-item list-group-item-action"id="hover-1">Sent</button>
-                    <button type="button" class="list-group-item list-group-item-action"id="hover-1">Spam</button>
-                    <button type="button" class="list-group-item list-group-item-action"id="hover-1">Trash</button>
+                <div class="list-box">
+                    <h4 id="inbox-selected">Inbox</h4>
+                    <h4>Important</h4>
+                    <h4>Favorite</h4>
+                    <h4>Sent</h4>
+                    <h4>Spam</h4>
+                    <h4>Trash</h4>
                   </div>
             </div>
 
@@ -113,9 +111,51 @@
                   <a href="#" class="list-group-item message-1" id="hover-message">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">Acorns</h5>
-                      <small class="text-muted">4:00PM</small>
+                      <small class="text-muted">2:00PM</small>
                     </div>
                     <p class="mb-1">The market in a shell</p>
+                  </a>
+                  <a href="#" class="list-group-item message-1" id="hover-message">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Bestbuy</h5>
+                      <small class="text-muted">3:00PM</small>
+                    </div>
+                    <p class="mb-1">check whats new this week</p>
+                  </a>
+                  <a href="#" class="list-group-item message-1" id="hover-message">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">VS Code</h5>
+                      <small class="text-muted">4:00PM</small>
+                    </div>
+                    <p class="mb-1">Learn these new shortcuts</p>
+                  </a>
+                  <a href="#" class="list-group-item message-1" id="hover-message">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Google</h5>
+                      <small class="text-muted">5:00PM</small>
+                    </div>
+                    <p class="mb-1">New login</p>
+                  </a>
+                  <a href="#" class="list-group-item message-1" id="hover-message">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">BVT</h5>
+                      <small class="text-muted">6:00PM</small>
+                    </div>
+                    <p class="mb-1">One assignment due tonight</p>
+                  </a>
+                  <a href="#" class="list-group-item message-1" id="hover-message">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Youtube</h5>
+                      <small class="text-muted">7:00PM</small>
+                    </div>
+                    <p class="mb-1">Check these new videos</p>
+                  </a>
+                  <a href="#" class="list-group-item message-1" id="hover-message">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Peacock</h5>
+                      <small class="text-muted">8:00PM</small>
+                    </div>
+                    <p class="mb-1">A new device is signed in</p>
                   </a>
                 </div>
             </div>
@@ -123,7 +163,7 @@
 
 
             <!--Third column which shows the content of the messages-->
-            <div class="col-md-12 col-lg-6 d-none d-md-block third-column">
+            <div class="col-md-12 col-lg-6 d-none d-lg-block third-column">
                 <h4>New jobs posted from Gallo</h4>
                 <p>ejgallo-jobnotification@noreply.jobs2web.com</p>
                 <p>Hi Ramiz,
@@ -145,7 +185,7 @@
 
                   <!--reply box-->
                   <div class="input-box">
-                    <textarea class="w-100" placeholder="Reply here" rows="5"></textarea>
+                    <textarea class="w-100" placeholder="Reply here" rows="20"></textarea>
                     <div class="mail-reply-section">
                         <!--reply button-->
 
